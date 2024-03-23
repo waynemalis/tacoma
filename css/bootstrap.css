@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Underdog&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.bg-warning {
+  background-color: var(--ts-primary) !important;
+}
+
+.btn-secondary, .text-bg-secondary {
+  background-color: var(--ts-secondary) !important;
+  border-color: var(--ts-secondary-border) !important;
+}
+
+.btn-warning, .text-bg-warning {
+    background-color: var(--ts-primary) !important;
+    border-color: var(--ts-warning-border) !important;
+}
+
+.card-header .text-bg-warning {
+
+}
+
+.btn, span, p, a {
+  font-family: "Work Sans", sans-serif;
+}
+
+.slick-prev::before, .slick-next::before {
+  color: var(--ts-secondary) !important;
+}
+
+:root,
+[data-ts-theme=light] {
+  color-scheme: light;
+  --ts-text-white: #fff;
+  --ts-primary: #fcbf49;
+  --ts-secondary: #778da9;
+  --ts-secondary-border: #6a809d;
+  --ts-warning-border: #e4a630;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-body-font-family: var(--bs-font-sans-serif);
+}
